@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 
 const Content = () => {
@@ -14,7 +15,7 @@ const Content = () => {
       <label>Write in the text area</label>
       <br />
       <textarea name="textarea" id="textarea" cols="50" rows="10"></textarea>
-      <button className="mx-2" onClick={handleSubmit}>
+      <button className="mx-2 btn btn-success" onClick={handleSubmit}>
         Submit
       </button>
       <p className="h3 text-info">You write: </p>
